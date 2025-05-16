@@ -14,7 +14,7 @@ Edit
 ├── video.mp4                # Your traffic video file (rename accordingly)
 └── README.md                # This file
 
-🛠️ Requirements
+### 🛠️ Requirements
 Python 3.8+
 
 ultralytics (YOLOv8)
