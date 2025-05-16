@@ -21,7 +21,7 @@ Edit
 
 - [opencv-python](https://opencv.org/)
 
-##🐍 Installation
+## 🐍 Installation
 1. Create a virtual environment (optional but recommended)
 
 python -m venv venv
