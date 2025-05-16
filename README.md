@@ -8,11 +8,11 @@ bash
 Copy
 Edit
 .
-├── main.py                  # The Python script (the code you provided)
-├── yolov8n.pt               # Pre-trained YOLOv8 Nano model (downloaded automatically or manually)
-├── bytetrack.yaml           # Tracker config file (optional if using default)
-├── video.mp4                # Your traffic video file (rename accordingly)
-└── README.md                # This file
+- ├── main.py                  # The Python script (the code you provided)
+- ├── yolov8n.pt               # Pre-trained YOLOv8 Nano model (downloaded automatically or manually)
+- ├── bytetrack.yaml           # Tracker config file (optional if using default)
+- ├── video.mp4                # Your traffic video file (rename accordingly)
+- └── README.md                # This file
 
 ### 🛠️ Requirements
 - Python 3.8+
@@ -39,7 +39,7 @@ mv "YourVideo.mp4" "Cars Moving On Road Stock Footage - Free Download.mp4"
 python main.py
 You should see a window pop up showing car detections and a live car count. Press q or Esc to quit.
 
-### 🧠 How It Works
+## 🧠 How It Works
 Uses YOLOv8 Nano (yolov8n.pt) for real-time detection.
 
 Tracks objects using ByteTrack.
@@ -48,7 +48,7 @@ When a car crosses a horizontal line at 75% frame height (customizable), the cou
 
 Object IDs ensure cars are only counted once.
 
-### 📝 Customization
+## 📝 Customization
 Change detection line position: Modify LINE_RATIO in main.py (e.g. 0.6 for 60% height).
 
 Use a different YOLO model: Replace 'yolov8n.pt' with other model variants like 'yolov8s.pt'.
