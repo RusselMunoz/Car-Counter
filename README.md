@@ -53,5 +53,5 @@ Change detection line position: Modify LINE_RATIO in main.py (e.g. 0.6 for 60% h
 
 Use a different YOLO model: Replace 'yolov8n.pt' with other model variants like 'yolov8s.pt'.
 
-> 📌 [!note]
+> [!note]
 > The model file (yolov8n.pt) will be downloaded automatically on first run, or you can download manually from Ultralytics.
