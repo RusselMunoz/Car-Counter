@@ -15,13 +15,13 @@ Edit
 └── README.md                # This file
 
 ### 🛠️ Requirements
-Python 3.8+
+- Python 3.8+
 
-ultralytics (YOLOv8)
+- [ultralytics (YOLOv8)](https://docs.ultralytics.com/models/yolov8/)
 
-opencv-python
+- [opencv-python](https://opencv.org/)
 
-🐍 Installation
+##🐍 Installation
 1. Create a virtual environment (optional but recommended)
 
 python -m venv venv
